@@ -13,17 +13,21 @@
         <div class="button" onclick="myFunction()"></div>
         <div class="pfp"><img src="redpfp.png" alt=""></div>
         <div class="links">
-            <div class="link"></div>
-            <div class="link"></div>
-            <div class="link"></div>
+            <div class="link" id="link1"></div>
+            <div class="link" id="link2"></div>
+            <div class="link" id="link3"></div>
         </div>
     </main>
     <script>
         function myFunction() {
             var element = document.body;
             element.classList.toggle("darkmode");
-            var link = document.getElementById();
-            
+            var link1 = document.getElementById("link1");
+            link1.classList.toggle("darklink");
+            var link1 = document.getElementById("link2");
+            link1.classList.toggle("darklink");
+            var link1 = document.getElementById("link3");
+            link1.classList.toggle("darklink");
         }
     </script>
 </body>
