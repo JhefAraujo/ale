@@ -16,6 +16,7 @@ body {
         background-size: cover;
         background-position: center center;
     }
+
     .link {
         background-image: url(wideframe.jpg);
         width: 350px;
@@ -26,11 +27,17 @@ body {
     body {
         background-image: url(lightbg.jpg);
         background-size: cover;
-        box-shadow: inset 0px 0px 44px 44px rgba(0,0,0,0.35);
+        box-shadow: inset 0px 0px 44px 44px rgba(0, 0, 0, 0.35);
     }
+
     .link {
         background-image: url(wideframe.jpg);
         width: 350px;
+    }
+
+    .darkmode {
+        background-image: url(darkbg.jpg);
+        background-size: cover;
     }
 }
 
@@ -38,12 +45,33 @@ body {
     body {
         background-image: url(lightbg.jpg);
         background-size: cover;
-        box-shadow: inset 0px 0px 44px 44px rgba(0,0,0,0.35);
+        box-shadow: inset 0px 0px 44px 44px rgba(0, 0, 0, 0.35);
     }
+
     .link {
         background-image: url(frame.jpg);
         width: 290px;
     }
+
+    .darkmode {
+        background-image: url(darkbg.jpg);
+        background-size: cover;
+    }
+    .darklink {
+        background-image: url(darkframe.jpg);
+        width: 290px;
+    }
+}
+
+.button {
+    background-image: url(darkbutton.png);
+    height: 100px;
+    width: 100px;
+    filter: drop-shadow(0px 0px 5px #000);
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-size: cover;
 }
 
 main {
@@ -56,10 +84,10 @@ main {
     row-gap: 25px;
 }
 
-.pfp  img{
+.pfp img {
     height: 250px;
     filter: drop-shadow(0px 10px 10px #000);
-} 
+}
 
 .links {
     display: flex;
@@ -73,5 +101,12 @@ main {
     height: 102px;
     background-repeat: no-repeat;
     background-position: center center;
-    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.darklink {
+    height: 102px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
