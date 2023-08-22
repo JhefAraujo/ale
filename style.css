@@ -90,8 +90,19 @@ main {
     row-gap: 25px;
 }
 
-.pfp img {
+.pfp {
     height: 250px;
+    width: 160px;
+    background-image: url(redpfp.png);
+    background-size: contain;
+    filter: drop-shadow(0px 10px 10px #000);
+}
+
+.darkpfp {
+    height: 250px;
+    width: 160px;
+    background-image: url(darkpfp.png);
+    background-size: contain;
     filter: drop-shadow(0px 10px 10px #000);
 }
 

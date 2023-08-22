@@ -11,7 +11,7 @@
 <body>
     <main>
         <div class="button" onclick="myFunction()"></div>
-        <div class="pfp"><img src="redpfp.png" alt=""></div>
+        <div class="pfp" id="pfp"></div>
         <div class="links">
             <div class="link" id="link1"></div>
             <div class="link" id="link2"></div>
@@ -28,6 +28,8 @@
             link1.classList.toggle("darklink");
             var link1 = document.getElementById("link3");
             link1.classList.toggle("darklink");
+            var pfp = document.getElementById("pfp");
+            pfp.classList.toggle("darkpfp");
         }
     </script>
 </body>
