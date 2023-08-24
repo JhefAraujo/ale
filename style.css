@@ -91,7 +91,7 @@ body {
 .button {
     filter: drop-shadow(0px 0px 5px #000);
     position: absolute;
-    top: 15px;
+    top: 20px;
     right: 15px;
 }
 
