@@ -109,7 +109,7 @@ main {
 .pfp {
     height: 250px;
     width: 160px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     transform: scale(0.95);
     background-image: url(redpfp.png);
     background-size: contain;
