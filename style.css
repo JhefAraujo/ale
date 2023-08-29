@@ -41,7 +41,7 @@ body {
     }
 
     .scale {
-        transform: scale(1.2);
+        transform: scale(1.2) translateY(-25px);
     }
 
     main {
@@ -87,7 +87,7 @@ body {
         width: 290px;
     }
     .button {
-        transform: translate(-35px, 75px);
+        transform: translate(-35px, 100px);
     }
 }
 
@@ -150,8 +150,8 @@ main {
 .pfp {
     height: 250px;
     width: 160px;
-    margin-bottom: 10px;
-    transform: scale(0.95);
+    margin-bottom: 0px;
+    transform: scale(0.8);
     background-image: url(redpfp.png);
     background-size: contain;
     filter: drop-shadow(0px 10px 10px #000);
